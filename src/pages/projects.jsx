@@ -15,6 +15,32 @@ const projects = () => {
       </Head>
       <main className='container'>
         <h1>Selected Projects</h1>
+        <div className='mt-20 flex flex-col gap-44'>
+          <div>
+            <div className='flex w-full h-60 bg-[#242429] flex-col items-center'>
+            </div>
+            <h2>Splash Screen</h2>
+            <p>Full-Stack Ecommerce MERN application with PayPal payment integration</p>
+          </div>
+          <div>
+            <div className='flex w-full h-60 bg-[#242429] flex-col items-center'>
+            </div>
+            <h2>Alkimi Labs</h2>
+            <p>Token Staking App, currently holding $10,000,000 worth of community members $ADS tokens</p>
+          </div>
+          <div>
+            <div className='flex w-full h-60 bg-[#242429] flex-col items-center'>
+            </div>
+            <h2>JennyCo</h2>
+            <p>NFT minting site where users receive a DNA test and token rewards for their data once they mint a JennyCo NFT</p>
+          </div>
+          <div>
+            <div className='flex w-full h-60 bg-[#242429] flex-col items-center'>
+            </div>
+            <h2>Alex The Alkimist</h2>
+            <p>NFT Minting site where users can mint an Alex the Alkimist NFT, earn token rewards, and then play a game using their NFT.</p>
+          </div>
+        </div>
         <div className='fixed'>
           <Navbar />
         </div>
