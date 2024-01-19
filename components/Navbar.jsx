@@ -23,15 +23,17 @@ const Navbar = () => {
         <li><Link className={`link ${pathname === '/projects' ? 'active' : ''}`} href='/projects'>Projects</Link></li>
         <li><Link href='/'>Contact</Link></li>
         <li><Link href='/'>CV</Link></li>
-        {/* <li><p className='text-red-700'>Test</p></li> */}
       </ul>
       <div className='line'></div>
-      {/* <div className='night'></div> */}
       <span>
       {theme === 'light' ? (
-        <span onClick={() => setTheme('dark')}>Dark</span>
+        <span onClick={() => setTheme('dark')}>
+          <div className='night'></div>
+        </span>
       ) : (
-        <span onClick={() => setTheme('light')}>Light</span>
+        <span onClick={() => setTheme('light')}>
+          <div className='day'></div>
+        </span>
       )}
       {/* ({theme}) */}
 

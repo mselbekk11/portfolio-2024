@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Head from 'next/head';
 import { Inter } from 'next/font/google';
 import Navbar from '../../components/Navbar';
+import Link from 'next/link';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -40,12 +41,14 @@ export default function Home() {
         </div>
         <div className='mt-16'>
           <h2 className='h2 mb-4'>Experience</h2>
-          <ul className='paragraph mb-2'>
-            <li>Alkimi - Head of Project Management & Web3 Integrations</li>
-            <li>Alkimi - Frontend Developer</li>
-            <li>Zmags - Director of Global Design Services</li>
-            <li>Zmags - Solutions Engineer</li>
-            <li>Currys - Web Designer & Developer</li>
+          <ul className='mb-2'>
+            <li className='mb-2'>
+              Alkimi - Head of Project Management & Web3 Integrations
+            </li>
+            <li className='mb-2'>Alkimi - Frontend Developer</li>
+            <li className='mb-2'>Zmags - Director of Global Design Services</li>
+            <li className='mb-2'>Zmags - Solutions Engineer</li>
+            <li className='mb-2'>Currys - Web Designer & Developer</li>
           </ul>
         </div>
         <div className='mt-16'>
@@ -58,20 +61,178 @@ export default function Home() {
         </div>
         <div className='mt-16'>
           <h2 className='h2 mb-4'>Latest Projects</h2>
-          <ul className='paragraph mb-2'>
-            <li>SplashScreen - Ecommerce Store</li>
-            <li>Alkimi Labs - Token Staking App</li>
-            <li>JennyCo - NFT Miniting site</li>
+          <ul className='mb-2'>
+            <li className='mb-2 flex'>
+              <Link href='/projects/splash-page'>
+                <span>SplashScreen - Ecommerce Store</span>
+              </Link>
+              <span className='inline-block'>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  width='15'
+                  height='15'
+                  viewBox='0 0 24 24'
+                  fill='none'
+                  stroke='currentColor'
+                  stroke-width='2'
+                  stroke-linecap='round'
+                  stroke-linejoin='round'
+                  class='lucide lucide-arrow-up-right'
+                  className='inline-block'
+                >
+                  <path d='M7 7h10v10' />
+                  <path d='M7 17 17 7' />
+                </svg>
+              </span>
+            </li>
+            <li className='mb-2 flex'>
+              <Link href='/projects/splash-page'>
+                <span>SplashScreen - Ecommerce Store</span>
+              </Link>
+              <span className='inline-block'>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  width='15'
+                  height='15'
+                  viewBox='0 0 24 24'
+                  fill='none'
+                  stroke='currentColor'
+                  stroke-width='2'
+                  stroke-linecap='round'
+                  stroke-linejoin='round'
+                  class='lucide lucide-arrow-up-right'
+                  className='inline-block'
+                >
+                  <path d='M7 7h10v10' />
+                  <path d='M7 17 17 7' />
+                </svg>
+              </span>
+            </li>
           </ul>
         </div>
         <div className='mt-16'>
           <h2 className='h2 mb-4'>Connect</h2>
-          <ul className='paragraph mb-2'>
-            <li>CV</li>
-            <li>Twitter</li>
-            <li>Github</li>
-            <li>Linkedin</li>
-            <li>Email</li>
+          <ul className='mb-2'>
+            <li className='mb-2 flex'>
+              <span>CV</span>
+              <span className='inline-block'>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  width='15'
+                  height='15'
+                  viewBox='0 0 24 24'
+                  fill='none'
+                  stroke='currentColor'
+                  stroke-width='2'
+                  stroke-linecap='round'
+                  stroke-linejoin='round'
+                  class='lucide lucide-arrow-up-right'
+                  className='inline-block'
+                >
+                  <path d='M7 7h10v10' />
+                  <path d='M7 17 17 7' />
+                </svg>
+              </span>
+            </li>
+            <li className='mb-2 flex'>
+              <span className='pr-4'>Twitter</span>
+              <span className='inline-block'>
+                <a href='https://twitter.com/mselbekk1' target='_blank'>
+                  @mselbekk1
+                </a>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  width='15'
+                  height='15'
+                  viewBox='0 0 24 24'
+                  fill='none'
+                  stroke='currentColor'
+                  stroke-width='2'
+                  stroke-linecap='round'
+                  stroke-linejoin='round'
+                  class='lucide lucide-arrow-up-right'
+                  className='inline-block'
+                >
+                  <path d='M7 7h10v10' />
+                  <path d='M7 17 17 7' />
+                </svg>
+              </span>
+            </li>
+            <li className='mb-2 flex'>
+              <span className='pr-4'>Github</span>
+              <span className='inline-block'>
+                <a href='https://github.com/mselbekk11' target='_blank'>
+                  @mselbekk11
+                </a>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  width='15'
+                  height='15'
+                  viewBox='0 0 24 24'
+                  fill='none'
+                  stroke='currentColor'
+                  stroke-width='2'
+                  stroke-linecap='round'
+                  stroke-linejoin='round'
+                  class='lucide lucide-arrow-up-right'
+                  className='inline-block'
+                >
+                  <path d='M7 7h10v10' />
+                  <path d='M7 17 17 7' />
+                </svg>
+              </span>
+            </li>
+            <li className='mb-2 flex'>
+              <span className='pr-4'>LinkedIn</span>
+              <span className='inline-block'>
+                <a
+                  href='https://www.linkedin.com/in/morgan-selbekk/'
+                  target='_blank'
+                >
+                  @morgan-selbekk
+                </a>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  width='15'
+                  height='15'
+                  viewBox='0 0 24 24'
+                  fill='none'
+                  stroke='currentColor'
+                  stroke-width='2'
+                  stroke-linecap='round'
+                  stroke-linejoin='round'
+                  class='lucide lucide-arrow-up-right'
+                  className='inline-block'
+                >
+                  <path d='M7 7h10v10' />
+                  <path d='M7 17 17 7' />
+                </svg>
+              </span>
+            </li>
+            <li className='mb-2 flex'>
+              <span className='pr-4'>Email</span>
+              <span className='inline-block'>
+                <a href='mailto:mselbekk11@gmail.com' target='_blank'>
+                  mselbekk11@gmail.com
+                </a>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  width='15'
+                  height='15'
+                  viewBox='0 0 24 24'
+                  fill='none'
+                  stroke='currentColor'
+                  stroke-width='2'
+                  stroke-linecap='round'
+                  stroke-linejoin='round'
+                  class='lucide lucide-arrow-up-right'
+                  className='inline-block'
+                >
+                  <path d='M7 7h10v10' />
+                  <path d='M7 17 17 7' />
+                </svg>
+              </span>
+            </li>
           </ul>
         </div>
         <div className='fixed'>

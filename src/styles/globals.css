@@ -2,38 +2,60 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-} */
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-} */
 * {
   box-sizing: border-box;
 }
 
 body {
-  /* background-color: #121113; */
+  background-color: #fff;
 }
 
-h1, h2, h3 {
-  /* color: #fff; */
+:is(.dark body) {
+  background-color: #121113;
 }
 
-/* p {
-  color: #B5B2BC;
-} */
+h1 {
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
 
-/* li {
+:is(.dark h1) {
+  color: #fff;
+}
+
+h2 {
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+:is(.dark h2) {
+  color: #fff;
+}
+
+
+p {
+  color: #66646E;
+}
+
+:is(.dark p) {
   color: #B5B2BC;
-} */
+}
+
+
+
+
+li {
+  color: #66646E;
+}
+
+:is(.dark li) {
+  color: #B5B2BC;
+}
 
 
 
@@ -45,7 +67,7 @@ h1, h2, h3 {
   min-height: 100vh;
   height: 100%;
   margin: 0 auto;
-  padding: 80px 16px 32px;
+  padding: 80px 16px 90px;
 }
 
 .fixed {
@@ -59,16 +81,22 @@ h1, h2, h3 {
 nav {
   display: flex;
   align-items: center;
-  /* background-color: #232225; */
+  background-color: #F3EFF3;
   padding: 10px;
   border-radius: 10px;
-  /* border: 1px solid #272629; */
-  border: 1px solid;
+  border: 1px solid #E3DFE5;
 }
+
+:is(.dark nav) {
+  background-color: #232225;
+  border: 1px solid #323035;
+}
+
+
 nav li {
   list-style: none;
   display: inline-block;
-  /* color: #fff; */
+  color: #000;
   border-radius: 7px;
 }
 
@@ -76,22 +104,42 @@ nav li a {
   list-style: none;
   display: inline-block;
   padding: 5px 10px;
-  /* color: #fff; */
+  color: #000;
   border-radius: 7px;
 }
 
+:is(.dark nav li a) {
+  color: #fff;
+}
+
 nav li .active {
-  /* background-color: #323035; */
+  background-color: #E3DFE5;
+}
+
+:is(.dark nav li .active) {
+  background-color: #323035;
 }
 
 .line {
   width: 1px;
   height: 25px;
-  background-color: #272629;
+  background-color: #E3DFE5;
   margin: 0px 10px;
 }
 
+:is(.dark .line) {
+  background-color: #323035;
+}
+
 .night {
+  width: 17px;
+  height: 17px;
+  background-color: #000;
+  margin: 0px 10px;
+  border-radius: 2px;
+}
+
+.day {
   width: 17px;
   height: 17px;
   background-color: #EEEEF0;

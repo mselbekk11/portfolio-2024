@@ -1,6 +1,8 @@
 import React from 'react'
 import Head from 'next/head';
 import Navbar from '../../components/Navbar';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const projects = () => {
 
@@ -15,29 +17,35 @@ const projects = () => {
       </Head>
       <main className='container'>
         <h1>Selected Projects</h1>
-        <div className='mt-20 flex flex-col gap-44'>
+        <div className='my-10 flex flex-col gap-40'>
           <div>
-            <div className='flex w-full h-60 bg-[#242429] flex-col items-center'>
+            <Link href="/projects/splash-page">
+            <div className='flex w-full h-full bg-[#242429] flex-col items-center py-6'>
+              <Image src='/splash-screen.png' width={500} height={500} alt='splash screen' />
             </div>
-            <h2>Splash Screen</h2>
+            </Link>
+            <h2 className='my-6'>Splash Screen</h2>
             <p>Full-Stack Ecommerce MERN application with PayPal payment integration</p>
           </div>
           <div>
-            <div className='flex w-full h-60 bg-[#242429] flex-col items-center'>
+            <div className='flex w-full h-full bg-[#686974] flex-col items-center py-6'>
+            <Image src='/labs.png' width={500} height={500} alt='Alkimi Labs' />
             </div>
-            <h2>Alkimi Labs</h2>
+            <h2 className='my-6'>Alkimi Labs</h2>
             <p>Token Staking App, currently holding $10,000,000 worth of community members $ADS tokens</p>
           </div>
           <div>
-            <div className='flex w-full h-60 bg-[#242429] flex-col items-center'>
+            <div className='flex w-full h-full bg-[#915BDA] flex-col items-center py-6'>
+            <Image src='/jco.png' width={500} height={500} alt='JennyCo' />
             </div>
-            <h2>JennyCo</h2>
+            <h2 className='my-6'>JennyCo</h2>
             <p>NFT minting site where users receive a DNA test and token rewards for their data once they mint a JennyCo NFT</p>
           </div>
           <div>
-            <div className='flex w-full h-60 bg-[#242429] flex-col items-center'>
+            <div className='flex w-full h-full bg-[#9FD5FF] flex-col items-center py-6'>
+            <Image src='/ata.png' width={500} height={500} alt='Alex The Alkimist' />
             </div>
-            <h2>Alex The Alkimist</h2>
+            <h2 className='my-6'>Alex The Alkimist</h2>
             <p>NFT Minting site where users can mint an Alex the Alkimist NFT, earn token rewards, and then play a game using their NFT.</p>
           </div>
         </div>
