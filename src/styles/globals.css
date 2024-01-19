@@ -37,16 +37,14 @@ h2 {
   color: #fff;
 }
 
-
 p {
   color: #66646E;
+  line-height: 1.5rem;
 }
 
 :is(.dark p) {
   color: #B5B2BC;
 }
-
-
 
 
 li {

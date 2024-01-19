@@ -2,8 +2,6 @@ import Head from 'next/head';
 import Navbar from '../../../components/Navbar';
 import Image from 'next/image';
 import Link from 'next/link';
-// import ButtonShooting from '../../../components/ButtonShootingStarBorder';
-// import ButtonTest from '../../../components/test';
 import Button from '../../../components/Button';
 
 const splashPage = () => {
