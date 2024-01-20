@@ -2,7 +2,9 @@ import React from 'react'
 
 const Button = () => {
   return (
-    <button>Visit Website</button>
+    <a href="https://www.splashscreen.io/" target='_blank'>
+      <button>Visit Website</button>
+    </a>
   )
 }
 

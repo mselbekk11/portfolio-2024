@@ -15,15 +15,15 @@ export default function Home() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <main className='container'>
-        <div className='intro'>
+      <main className='container home'>
+        <div className='intro animate-slideFromDownAndFade'>
           <Image src='/morgan.png' alt='/' width={70} height={70} />
           <div className='me'>
             <h1 className='h1 mb-0.5'>Morgan Selbekk</h1>
             <p className='paragraph'>Software Engineer</p>
           </div>
         </div>
-        <div className='mt-16'>
+        <div className='mt-16 animate-slideFromDownAndFade [animation-delay:var(--animation-delay)]'>
           <h2 className='h2 mb-4'>About me</h2>
           <p className='paragraph mb-2'>
             I’m a Developer living in San Fransisco. I have 8 years experience
@@ -39,7 +39,7 @@ export default function Home() {
             <a>Alkimi</a> & <a>JennyCo</a>
           </p>
         </div>
-        <div className='mt-16'>
+        <div className='mt-16 animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*2)]'>
           <h2 className='h2 mb-4'>Experience</h2>
           <ul className='mb-2'>
             <li className='mb-2'>
@@ -51,7 +51,7 @@ export default function Home() {
             <li className='mb-2'>Currys - Web Designer & Developer</li>
           </ul>
         </div>
-        <div className='mt-16'>
+        <div className='mt-16 animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*3)]'>
           <h2 className='h2 mb-4'>Skills</h2>
           <p className='paragraph mb-2'>
             HTML | CSS | JavaScript | React | Next.js | Tailwind | MongoDB |
@@ -59,7 +59,7 @@ export default function Home() {
             Wordpress
           </p>
         </div>
-        <div className='mt-16'>
+        <div className='mt-16 animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*4)]'>
           <h2 className='h2 mb-4'>Latest Projects</h2>
           <ul className='mb-2'>
             <li className='mb-2 flex'>
@@ -110,7 +110,7 @@ export default function Home() {
             </li>
           </ul>
         </div>
-        <div className='mt-16'>
+        <div className='mt-16 animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*5)]'>
           <h2 className='h2 mb-4'>Connect</h2>
           <ul className='mb-2'>
             <li className='mb-2 flex'>

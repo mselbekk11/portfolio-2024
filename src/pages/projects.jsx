@@ -16,9 +16,10 @@ const projects = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main className='container'>
-        <h1>Selected Projects</h1>
+        <h1 className='animate-slideFromDownAndFade'>Selected Projects</h1>
         <div className='my-10 flex flex-col gap-40'>
-          <div>
+
+          <div className='animate-slideFromDownAndFade [animation-delay:var(--animation-delay)]'>
             <Link href="/projects/splash-page">
             <div className='flex w-full h-full bg-[#242429] flex-col items-center py-6'>
               <Image src='/splash-screen.png' width={500} height={500} alt='splash screen' />
@@ -27,27 +28,37 @@ const projects = () => {
             <h2 className='my-6'>Splash Screen</h2>
             <p>Full-Stack Ecommerce MERN application with PayPal payment integration</p>
           </div>
-          <div>
+
+          <div className='animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*2)]'>
+          <Link href="/projects/alkimi-labs">
             <div className='flex w-full h-full bg-[#686974] flex-col items-center py-6'>
             <Image src='/labs.png' width={500} height={500} alt='Alkimi Labs' />
             </div>
+            </Link>
             <h2 className='my-6'>Alkimi Labs</h2>
             <p>Token Staking App, currently holding $10,000,000 worth of community members $ADS tokens</p>
           </div>
-          <div>
+
+          <div className='animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*3)]'>
+          <Link href="/projects/jennyco">
             <div className='flex w-full h-full bg-[#915BDA] flex-col items-center py-6'>
             <Image src='/jco.png' width={500} height={500} alt='JennyCo' />
             </div>
+            </Link>
             <h2 className='my-6'>JennyCo</h2>
             <p>NFT minting site where users receive a DNA test and token rewards for their data once they mint a JennyCo NFT</p>
           </div>
-          <div>
+
+          <div className='animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*4)]'>
+          <Link href="/projects/alex-the-alkimist">
             <div className='flex w-full h-full bg-[#9FD5FF] flex-col items-center py-6'>
             <Image src='/ata.png' width={500} height={500} alt='Alex The Alkimist' />
             </div>
+            </Link>
             <h2 className='my-6'>Alex The Alkimist</h2>
             <p>NFT Minting site where users can mint an Alex the Alkimist NFT, earn token rewards, and then play a game using their NFT.</p>
           </div>
+
         </div>
         <div className='fixed'>
           <Navbar />
