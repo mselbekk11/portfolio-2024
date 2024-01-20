@@ -2,7 +2,8 @@ import Head from 'next/head';
 import Navbar from '../../../components/Navbar';
 import Image from 'next/image';
 import Link from 'next/link';
-import Button from '../../../components/Button';
+// import Button from '../../../components/Button';
+import ButtonShootingStarBorder from '../../../components/ButtonShootingStarBorder';
 
 const splashPage = () => {
   return (
@@ -14,9 +15,9 @@ const splashPage = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main className='container'>
-        <div className='flex justify-between animate-slideFromDownAndFade'>
+        <div className='flex justify-between items-center animate-slideFromDownAndFade'>
         <h1>Splash Page</h1>
-        <Button />
+        <ButtonShootingStarBorder />
         </div>
         <div className='my-10 flex flex-col gap-44'>
           <div>
