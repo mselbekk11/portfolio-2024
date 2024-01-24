@@ -77,10 +77,15 @@ p a {
   flex-direction: column;
   /* align-items: center; */
   max-width: 610px;
+  width: 100%;
   min-height: 100vh;
   height: 100%;
   margin: 0 auto;
   padding: 80px 16px 90px;
+  /* padding-top: 80px;
+  padding-bottom: 90px;
+  padding-left: 16px!important;
+  padding-right: 16px!important; */
 }
 
 .fixed {
@@ -88,7 +93,15 @@ p a {
   bottom: 20px;
   justify-content: center;
   display: flex;
-  width: inherit;
+  /* width: 100%;
+  max-width: 610px; */
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 20;
+  left: 0;
+  right: 0;
 }
 
 nav {

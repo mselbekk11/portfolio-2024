@@ -24,7 +24,8 @@ const splashPage = () => {
         <div className='my-10 flex flex-col gap-44'>
           <div>
             <div className='flex w-full h-full bg-[#686974] flex-col items-center py-6 animate-slideFromDownAndFade [animation-delay:var(--animation-delay)]'>
-              <Image src='/labs.png' width={500} height={500} alt='Alkimi Labs' />
+              {/* <Image src='/labs.png' width={500} height={500} alt='Alkimi Labs' /> */}
+              <video src="https://res.cloudinary.com/dtjasyr7k/video/upload/v1706134105/Morgans_video_2_v2pshf.mp4" autoPlay muted loop></video>
             </div>
             <p className='my-10 animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*2)]'>Alkimi Labs is a token staking platform & node management system. Alkimi is a decentralized advertising exchange that floats on its own crypto currency - The $ADS token. The Alkimi community are incentivized to stake their $ADS tokens in exchange for token rewards. In 2023 Alkimi Labs hosted 6 staking pools, each one holding ~$10,000,000 worth of Alkimi Tokens. This allowed Alkimi to lock up tokens, decrease supply on the market and push up the price of the $ADS token.</p>
             <p className='my-10 animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*2)]'>I lead a team of 5 as a Project Manager, consisting of 1 front-end developer, 1 full-stack developer, 1 blockchain developer and 1 UI/UX designer.  I designed the first iteration, which was then improved over the last year. </p>
