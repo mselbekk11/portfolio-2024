@@ -17,28 +17,26 @@ const splashPage = () => {
       <main className='container'>
         <div className='flex justify-between items-center animate-slideFromDownAndFade'>
         <h1>Alex The Alkimist</h1>
+        <a href="https://www.alexthealkimist.com/" target='_blank'>
         <ButtonShootingStarBorder />
+        </a>
         </div>
         <div className='my-10 flex flex-col gap-44'>
           <div>
             <div className='flex w-full h-full bg-[#9FD5FF] flex-col items-center py-6 animate-slideFromDownAndFade [animation-delay:var(--animation-delay)]'>
               <Image src='/ata.png' width={500} height={500} alt='Alex The Alkimist' />
             </div>
-            <p className='my-10 animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*2)]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, animi perspiciatis, doloribus soluta repellat nesciunt provident modi voluptatum non cum maiores beatae quidem obcaecati illo itaque libero ipsa facilis error.Lore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, animi perspiciatis, doloribus soluta repellat nesciunt provident modi voluptatum non cum maiores beatae quidem obcaecati illo itaque libero ipsa facilis error.Loremm</p>
+            <p className='my-10 animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*2)]'>Alex the Alkimist is an NFT project designed to raise capital for Alkimi Exchange. For every 10,000 $ADS tokens you staked in their staking pool you were eligible to draw an Alex the Alkimist NFT. The collection consisted of 5 different rarities. The more rare your NFT, the more token rewards you were eligible to collect at the end of the staking pool.</p>
+            <p className='my-10 animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*2)]'>We also distributed various element NFTs that when combined with your original Alex The Alkimist, it would mutate your NFT (similar to how the mutant apes were created)</p>
+            <p className='my-10 animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*2)]'>I was the Project Manager, Designer and Front-end developer on this project. I outsourced both the NFT artwork and blockchain development to contractors.</p>
             <div className='animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*3)]'>
             <h2 className='my-10'>Tech Stack</h2>
             <ul>
-              <li className='mb-2'>HTML & CSS</li>
+            <li className='mb-2'>HTML & CSS</li>
               <li className='mb-2'>React</li>
-              <li className='mb-2'>React Bootstrap UI library</li>
-              <li className='mb-2'>Redux & Redux Toolkit</li>
-              <li className='mb-2'>Authentication with JWT & HTTP-Only cookies</li>
-              <li className='mb-2'>PayPal</li>
-              <li className='mb-2'>Multer & Cloudinary</li>
-              <li className='mb-2'>Node.js</li>
-              <li className='mb-2'>Express.js</li>
-              <li className='mb-2'>Mongoose</li>
-              <li className='mb-2'>MongoDB</li>
+              <li className='mb-2'>Bootstrap</li>
+              <li className='mb-2'>Polygon Blockchain</li>
+              <li className='mb-2'>ERC-721 Smart Contract</li>
             </ul>
             </div>
           </div>

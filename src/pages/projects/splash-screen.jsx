@@ -16,15 +16,17 @@ const splashPage = () => {
       </Head>
       <main className='container'>
         <div className='flex justify-between items-center animate-slideFromDownAndFade'>
-        <h1>Splash Page</h1>
+        <h1>Splash Screen</h1>
+        <a href="https://www.splashscreen.io/" target='_blank'>
         <ButtonShootingStarBorder />
+        </a>
         </div>
         <div className='my-10 flex flex-col gap-44'>
           <div>
             <div className='flex w-full h-full bg-[#242429] flex-col items-center py-6 animate-slideFromDownAndFade [animation-delay:var(--animation-delay)]'>
               <Image src='/splash-screen.png' width={500} height={500} alt='splash screen' />
             </div>
-            <p className='my-10 animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*2)]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, animi perspiciatis, doloribus soluta repellat nesciunt provident modi voluptatum non cum maiores beatae quidem obcaecati illo itaque libero ipsa facilis error.Lore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, animi perspiciatis, doloribus soluta repellat nesciunt provident modi voluptatum non cum maiores beatae quidem obcaecati illo itaque libero ipsa facilis error.Loremm</p>
+            <p className='my-10 animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*2)]'>Splash Screen is an open source MERN stack Ecommerce application. Users can buy various desktop and mobile wallpapers through a PayPal integration. Splash Screen also has an admin portal, where accounts and orders can be maintained by the store admin as well as have the ability to reconfigure the products listed on the shop front.</p>
             <div className='animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*3)]'>
             <h2 className='my-10'>Tech Stack</h2>
             <ul>

@@ -20,7 +20,7 @@ const projects = () => {
         <div className='my-10 flex flex-col gap-40'>
 
           <div className='animate-slideFromDownAndFade [animation-delay:var(--animation-delay)]'>
-            <Link href="/projects/splash-page">
+            <Link href="/projects/splash-screen">
             <div className='flex w-full h-full bg-[#242429] flex-col items-center py-6'>
               <Image src='/splash-screen.png' width={500} height={500} alt='splash screen' />
             </div>

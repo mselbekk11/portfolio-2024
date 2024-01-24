@@ -76,7 +76,7 @@ p a {
   display: flex;
   flex-direction: column;
   /* align-items: center; */
-  width: 610px;
+  max-width: 610px;
   min-height: 100vh;
   height: 100%;
   margin: 0 auto;
@@ -98,6 +98,7 @@ nav {
   padding: 10px;
   border-radius: 10px;
   border: 1px solid #E3DFE5;
+  display: relative;
 }
 
 :is(.dark nav) {
@@ -159,6 +160,21 @@ nav li .active {
   margin: 0px 10px;
   border-radius: 2px;
 }
+
+/* .dropdown {
+  position: absolute;
+  bottom: 70px;
+  left: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #232225;
+  border: 1px solid #323035;
+  border-radius: 10px;
+  width: 175px;
+} */
+
+/* -------------NAV------------------*/
 
 .intro {
   display: flex;
