@@ -26,7 +26,7 @@ const splashPage = () => {
             <div className='flex w-full h-full bg-[#686974] flex-col items-center py-6 animate-slideFromDownAndFade [animation-delay:var(--animation-delay)]'>
               {/* <Image src='/labs.png' width={500} height={500} alt='Alkimi Labs' /> */}
               {/* <video src="https://res.cloudinary.com/dtjasyr7k/video/upload/v1706134105/Morgans_video_2_v2pshf.mp4" autoPlay muted loop></video> */}
-              <video autoplay muted loop webkit-playsinline playsinline>
+              <video webkit-playsinline playsinline autoplay muted loop poster>
                 <source src='https://res.cloudinary.com/dtjasyr7k/video/upload/v1706134105/Morgans_video_2_v2pshf.mp4' type='video/mp4'/>
               </video>
             </div>
