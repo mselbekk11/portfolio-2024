@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Navbar from '../../../components/Navbar';
-import Image from 'next/image';
-import Link from 'next/link';
+// import Image from 'next/image';
+// import Link from 'next/link';
 // import Button from '../../../components/Button';
 import ButtonShootingStarBorder from '../../../components/ButtonShootingStarBorder';
 
