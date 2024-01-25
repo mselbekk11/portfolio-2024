@@ -25,7 +25,10 @@ const splashPage = () => {
           <div>
             <div className='flex w-full h-full bg-[#242429] flex-col items-center py-6 animate-slideFromDownAndFade [animation-delay:var(--animation-delay)]'>
               {/* <Image src='/splash-screen.png' width={500} height={500} alt='splash screen' /> */}
-              <video src="https://res.cloudinary.com/dtjasyr7k/video/upload/v1706133522/Morgans_video_1_iputoa.mp4" autoPlay muted loop></video>
+              {/* <video src="https://res.cloudinary.com/dtjasyr7k/video/upload/v1706133522/Morgans_video_1_iputoa.mp4" autoPlay muted loop></video> */}
+              <video autoPlay muted loop playsinline>
+                <source src='https://res.cloudinary.com/dtjasyr7k/video/upload/v1706133522/Morgans_video_1_iputoa.mp4' type='video/mp4'/>
+              </video>
             </div>
             <p className='my-10 animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*2)]'>Splash Screen is an open source MERN stack Ecommerce application. Users can buy various desktop and mobile wallpapers through a PayPal integration. Splash Screen also has an admin portal, where accounts and orders can be maintained by the store admin as well as have the ability to reconfigure the products listed on the shop front.</p>
             <div className='animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*3)]'>
