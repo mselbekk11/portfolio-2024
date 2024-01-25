@@ -32,7 +32,7 @@ const Navbar = () => {
           <div onClick={handleOpen}>Contact</div>
       {open ? <Dropdown></Dropdown> : ''}</Link>
       </li> */}
-      <li><a href='https://docs.google.com/document/d/12V0Udg-aaYEBFSlMOJAn-0n1rnpXB5n-MKhf52JULp0/edit?usp=sharing' target='_blank'>CV</a></li>
+      <li><a href='https://res.cloudinary.com/dtjasyr7k/image/upload/v1706211994/Group_48_tfj2wr.pdf' target='_blank'>CV</a></li>
       </ul>
       <div className='line'></div>
       <span>
