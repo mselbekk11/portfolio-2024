@@ -4,6 +4,7 @@ import Image from 'next/image';
 // import Link from 'next/link';
 // import Button from '../../../components/Button';
 import ButtonShootingStarBorder from '../../../components/ButtonShootingStarBorder';
+import VideoOne from '../../../components/VideoOne';
 
 const splashPage = () => {
   return (
@@ -24,7 +25,8 @@ const splashPage = () => {
         <div className='my-10 flex flex-col gap-44'>
           <div>
             <div className='flex w-full h-full bg-[#242429] flex-col items-center py-6 animate-slideFromDownAndFade [animation-delay:var(--animation-delay)]'>
-              <Image src='/splash-screen.png' width={500} height={500} alt='splash screen' />
+              {/* <Image src='/splash-screen.png' width={500} height={500} alt='splash screen' /> */}
+              <VideoOne />
               {/* <Image src='/test.gif' width={500} height={500} alt='splash screen' /> */}
               {/* <video src="https://res.cloudinary.com/dtjasyr7k/video/upload/v1706133522/Morgans_video_1_iputoa.mp4" autoPlay muted loop></video> */}
               {/* <video autoplay muted loop>
