@@ -26,7 +26,7 @@ const splashPage = () => {
             <div className='flex w-full h-full bg-[#242429] flex-col items-center py-6 animate-slideFromDownAndFade [animation-delay:var(--animation-delay)]'>
               {/* <Image src='/splash-screen.png' width={500} height={500} alt='splash screen' /> */}
               {/* <video src="https://res.cloudinary.com/dtjasyr7k/video/upload/v1706133522/Morgans_video_1_iputoa.mp4" autoPlay muted loop></video> */}
-              <video autoPlay muted loop playsinline>
+              <video autoplay muted loop controls webkit-playsinline playsinline>
                 <source src='https://res.cloudinary.com/dtjasyr7k/video/upload/v1706133522/Morgans_video_1_iputoa.mp4' type='video/mp4'/>
               </video>
             </div>
