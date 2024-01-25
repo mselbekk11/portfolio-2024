@@ -4,6 +4,7 @@ import Image from 'next/image';
 // import Link from 'next/link';
 // import Button from '../../../components/Button';
 import ButtonShootingStarBorder from '../../../components/ButtonShootingStarBorder';
+import VideoThree from '../../../components/VideoThree';
 
 const splashPage = () => {
   return (
@@ -24,8 +25,8 @@ const splashPage = () => {
         <div className='my-10 flex flex-col gap-44'>
           <div>
             <div className='flex w-full h-full bg-[#915BDA] flex-col items-center py-6 animate-slideFromDownAndFade [animation-delay:var(--animation-delay)]'>
-              <Image src='/jco.png' width={500} height={500} alt='JennyCo' />
-              {/* <video src="https://res.cloudinary.com/dtjasyr7k/video/upload/v1706134779/Morgans_video_3_xqq85d.mp4" autoPlay muted loop></video> */}
+              {/* <Image src='/jco.png' width={500} height={500} alt='JennyCo' /> */}
+              <VideoThree />
             </div>
             <p className='my-10 animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*2)]'>JennyCo is the world&#39;s first cryptographically secured AI-driven healthcare data marketplace. JennyCo wanted to create an NFT series to help raise capital and also generate user health data for their app. When someone minted an NFT they would receive both a DNA test kit as well as $JCO tokens. Once the DNA test was submitted by the user, JennyCo would upload this data to their app. Everytime the user&#39;s data was used, they would be compensated with $JCO tokens.</p>
             <p className='my-10 animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*2)]'>I was both the Project Manager and Front-end developer for this project, working alongside 1 Full-stack developer, 1 Blockchain developer and 1 UI/UX designer. JennyCo sold 919 NFTs making $180,000</p>

@@ -4,6 +4,7 @@ import Image from 'next/image';
 // import Link from 'next/link';
 // import Button from '../../../components/Button';
 import ButtonShootingStarBorder from '../../../components/ButtonShootingStarBorder';
+import VideoFour from '../../../components/VideoFour';
 
 const splashPage = () => {
   return (
@@ -24,8 +25,8 @@ const splashPage = () => {
         <div className='my-10 flex flex-col gap-44'>
           <div>
             <div className='flex w-full h-full bg-[#9FD5FF] flex-col items-center py-6 animate-slideFromDownAndFade [animation-delay:var(--animation-delay)]'>
-              <Image src='/ata.png' width={500} height={500} alt='Alex The Alkimist' />
-              {/* <video src="https://res.cloudinary.com/dtjasyr7k/video/upload/v1706135013/Morgans_video_4_yal98v.mp4" autoPlay muted loop></video> */}
+              {/* <Image src='/ata.png' width={500} height={500} alt='Alex The Alkimist' /> */}
+              <VideoFour />
             </div>
             <p className='my-10 animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*2)]'>Alex the Alkimist is an NFT project designed to raise capital for Alkimi Exchange. For every 10,000 $ADS tokens you staked in their staking pool you were eligible to draw an Alex the Alkimist NFT. The collection consisted of 5 different rarities. The more rare your NFT, the more token rewards you were eligible to collect at the end of the staking pool.</p>
             <p className='my-10 animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*2)]'>We also distributed various element NFTs that when combined with your original Alex The Alkimist, it would mutate your NFT (similar to how the mutant apes were created)</p>
