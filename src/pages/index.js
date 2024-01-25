@@ -116,125 +116,127 @@ export default function Home() {
         <div className='mt-16 animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*5)]'>
           <h2 className='h2 mb-4'>Connect</h2>
           <ul className='mb-2'>
-            <li className='mb-2 flex'>
-              <span>CV</span>
-              <span className='inline-block'>
-                <svg
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='15'
-                  height='15'
-                  viewBox='0 0 24 24'
-                  fill='none'
-                  stroke='currentColor'
-                  stroke-width='2'
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
-                  class='lucide lucide-arrow-up-right'
-                  className='inline-block'
-                >
-                  <path d='M7 7h10v10' />
-                  <path d='M7 17 17 7' />
-                </svg>
-              </span>
+            <li>
+              <div className='flex items-center mb-2'>
+                <span className='mr-4'>Twitter</span>
+                <span>
+                  {' '}
+                  <a href='https://twitter.com/mselbekk1' target='_blank'>
+                    @mselbekk1
+                  </a>
+                </span>
+                <span>
+                  {' '}
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    width='15'
+                    height='15'
+                    viewBox='0 0 24 24'
+                    fill='none'
+                    stroke='currentColor'
+                    stroke-width='2'
+                    stroke-linecap='round'
+                    stroke-linejoin='round'
+                    class='lucide lucide-arrow-up-right'
+                    className='inline-block'
+                  >
+                    <path d='M7 7h10v10' />
+                    <path d='M7 17 17 7' />
+                  </svg>
+                </span>
+              </div>
             </li>
-            <li className='mb-2 flex'>
-              <span className='pr-4'>Twitter</span>
-              <span className='inline-block'>
-                <a href='https://twitter.com/mselbekk1' target='_blank'>
-                  @mselbekk1
-                </a>
-                <svg
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='15'
-                  height='15'
-                  viewBox='0 0 24 24'
-                  fill='none'
-                  stroke='currentColor'
-                  stroke-width='2'
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
-                  class='lucide lucide-arrow-up-right'
-                  className='inline-block'
-                >
-                  <path d='M7 7h10v10' />
-                  <path d='M7 17 17 7' />
-                </svg>
-              </span>
+
+            <li>
+              <div className='flex items-center mb-2'>
+                <span className='mr-4'>Github</span>
+                <span>
+                  <a href='https://github.com/mselbekk11' target='_blank'>
+                    @mselbekk11
+                  </a>
+                </span>
+                <span>
+                  {' '}
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    width='15'
+                    height='15'
+                    viewBox='0 0 24 24'
+                    fill='none'
+                    stroke='currentColor'
+                    stroke-width='2'
+                    stroke-linecap='round'
+                    stroke-linejoin='round'
+                    class='lucide lucide-arrow-up-right'
+                    className='inline-block'
+                  >
+                    <path d='M7 7h10v10' />
+                    <path d='M7 17 17 7' />
+                  </svg>
+                </span>
+              </div>
             </li>
-            <li className='mb-2 flex'>
-              <span className='pr-4'>Github</span>
-              <span className='inline-block'>
-                <a href='https://github.com/mselbekk11' target='_blank'>
-                  @mselbekk11
-                </a>
-                <svg
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='15'
-                  height='15'
-                  viewBox='0 0 24 24'
-                  fill='none'
-                  stroke='currentColor'
-                  stroke-width='2'
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
-                  class='lucide lucide-arrow-up-right'
-                  className='inline-block'
-                >
-                  <path d='M7 7h10v10' />
-                  <path d='M7 17 17 7' />
-                </svg>
-              </span>
+
+            <li>
+              <div className='flex items-center mb-2'>
+                <span className='mr-4'>LinkedIn</span>
+                <span>
+                  <a
+                    href='https://www.linkedin.com/in/morgan-selbekk/'
+                    target='_blank'
+                  >
+                    @morgan-selbekk
+                  </a>
+                </span>
+                <span>
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    width='15'
+                    height='15'
+                    viewBox='0 0 24 24'
+                    fill='none'
+                    stroke='currentColor'
+                    stroke-width='2'
+                    stroke-linecap='round'
+                    stroke-linejoin='round'
+                    class='lucide lucide-arrow-up-right'
+                    className='inline-block'
+                  >
+                    <path d='M7 7h10v10' />
+                    <path d='M7 17 17 7' />
+                  </svg>
+                </span>
+              </div>
             </li>
-            <li className='mb-2 flex'>
-              <span className='pr-4'>LinkedIn</span>
-              <span className='inline-block'>
-                <a
-                  href='https://www.linkedin.com/in/morgan-selbekk/'
-                  target='_blank'
-                >
-                  @morgan-selbekk
-                </a>
-                <svg
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='15'
-                  height='15'
-                  viewBox='0 0 24 24'
-                  fill='none'
-                  stroke='currentColor'
-                  stroke-width='2'
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
-                  class='lucide lucide-arrow-up-right'
-                  className='inline-block'
-                >
-                  <path d='M7 7h10v10' />
-                  <path d='M7 17 17 7' />
-                </svg>
-              </span>
-            </li>
-            <li className='mb-2 flex'>
-              <span className='pr-4'>Email</span>
-              <span className='inline-block'>
-                <a href='mailto:mselbekk11@gmail.com' target='_blank'>
-                  mselbekk11@gmail.com
-                </a>
-                <svg
-                  xmlns='http://www.w3.org/2000/svg'
-                  width='15'
-                  height='15'
-                  viewBox='0 0 24 24'
-                  fill='none'
-                  stroke='currentColor'
-                  stroke-width='2'
-                  stroke-linecap='round'
-                  stroke-linejoin='round'
-                  class='lucide lucide-arrow-up-right'
-                  className='inline-block'
-                >
-                  <path d='M7 7h10v10' />
-                  <path d='M7 17 17 7' />
-                </svg>
-              </span>
+
+            <li>
+              <div className='flex items-center mb-2'>
+                <span className='mr-4'>Email</span>
+                <span>
+                  <a href='mailto:mselbekk11@gmail.com' target='_blank'>
+                    mselbekk11@gmail.com
+                  </a>
+                </span>
+                <span>
+                  {' '}
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    width='15'
+                    height='15'
+                    viewBox='0 0 24 24'
+                    fill='none'
+                    stroke='currentColor'
+                    stroke-width='2'
+                    stroke-linecap='round'
+                    stroke-linejoin='round'
+                    class='lucide lucide-arrow-up-right'
+                    className='inline-block'
+                  >
+                    <path d='M7 7h10v10' />
+                    <path d='M7 17 17 7' />
+                  </svg>
+                </span>
+              </div>
             </li>
           </ul>
         </div>
