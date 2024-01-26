@@ -1,8 +1,12 @@
 import React from 'react'
 import Head from 'next/head';
 import Navbar from '../../components/Navbar';
-import Image from 'next/image';
+// import Image from 'next/image';
 import Link from 'next/link';
+import VideoOne from '../../components/VideoOne';
+import VideoTwo from '../../components/VideoTwo';
+import VideoThree from '../../components/VideoThree';
+import VideoFour from '../../components/VideoFour';
 
 const projects = () => {
 
@@ -22,7 +26,8 @@ const projects = () => {
           <div className='animate-slideFromDownAndFade [animation-delay:var(--animation-delay)]'>
             <Link href="/projects/splash-screen">
             <div className='flex w-full h-full bg-[#242429] flex-col items-center py-6'>
-              <Image src='/splash-screen.png' width={500} height={500} alt='splash screen' />
+              {/* <Image src='/splash-screen.png' width={500} height={500} alt='splash screen' /> */}
+              <VideoOne />
             </div>
             </Link>
             <h2 className='my-6'>Splash Screen</h2>
@@ -32,7 +37,8 @@ const projects = () => {
           <div className='animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*2)]'>
           <Link href="/projects/alkimi-labs">
             <div className='flex w-full h-full bg-[#686974] flex-col items-center py-6'>
-            <Image src='/labs.png' width={500} height={500} alt='Alkimi Labs' />
+            {/* <Image src='/labs.png' width={500} height={500} alt='Alkimi Labs' /> */}
+            <VideoTwo />
             </div>
             </Link>
             <h2 className='my-6'>Alkimi Labs</h2>
@@ -42,7 +48,8 @@ const projects = () => {
           <div className='animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*3)]'>
           <Link href="/projects/jennyco">
             <div className='flex w-full h-full bg-[#915BDA] flex-col items-center py-6'>
-            <Image src='/jco.png' width={500} height={500} alt='JennyCo' />
+            {/* <Image src='/jco.png' width={500} height={500} alt='JennyCo' /> */}
+            <VideoThree />
             </div>
             </Link>
             <h2 className='my-6'>JennyCo</h2>
@@ -52,7 +59,8 @@ const projects = () => {
           <div className='animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*4)]'>
           <Link href="/projects/alex-the-alkimist">
             <div className='flex w-full h-full bg-[#9FD5FF] flex-col items-center py-6'>
-            <Image src='/ata.png' width={500} height={500} alt='Alex The Alkimist' />
+            {/* <Image src='/ata.png' width={500} height={500} alt='Alex The Alkimist' /> */}
+            <VideoFour />
             </div>
             </Link>
             <h2 className='my-6'>Alex The Alkimist</h2>
