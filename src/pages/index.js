@@ -58,7 +58,7 @@ export default function Home() {
           <h2 className='h2 mb-4'>Skills</h2>
           <p className='paragraph mb-2'>
             HTML | CSS | JavaScript | React | Next.js | Tailwind | MongoDB |
-            Express | Node.js | Mongoose | JSON | Figma | Photoshop | Shopify |
+            Express | Node.js | Mongoose | Figma | Photoshop | Shopify |
             Wordpress
           </p>
         </div>
