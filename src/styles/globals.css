@@ -347,3 +347,16 @@ button:hover .backdrop {
   z-index: 1;
   color: rgb(203 213 225);
 }
+
+
+/* ---------------- MEDIA QUERIES --------------------- */
+
+@media screen and (max-width: 769px) {
+  .container {
+    padding-top: 40px;
+  }
+
+  .container.home {
+    padding-top: 80px;
+  }
+}
