@@ -65,7 +65,7 @@ export default function Home() {
         <div className='mt-16 animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*4)]'>
           <h2 className='h2 mb-4'>Latest Projects</h2>
           <ul className='mb-2'>
-            <li className='mb-2 flex'>
+            <li className='mb-2 flex items-center'>
               <Link href='/projects/splash-page'>
                 <span>SplashScreen - Ecommerce Store</span>
               </Link>
@@ -88,9 +88,9 @@ export default function Home() {
                 </svg>
               </span>
             </li>
-            <li className='mb-2 flex'>
-              <Link href='/projects/splash-page'>
-                <span>SplashScreen - Ecommerce Store</span>
+            <li className='mb-2 flex items-center'>
+              <Link href='/projects/alkimi-labs'>
+                <span>Alkimi Labs - Token Staking App</span>
               </Link>
               <span className='inline-block'>
                 <svg
