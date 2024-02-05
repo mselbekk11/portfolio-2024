@@ -17,6 +17,10 @@ export default function Home() {
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
+        <meta
+          name='google-site-verification'
+          content='F4b6hQsogl5U_1kOzY2E733Hw-chip8d6paonGtuTkE'
+        />
       </Head>
       <main className='container home'>
         <div className='intro animate-slideFromDownAndFade'>
