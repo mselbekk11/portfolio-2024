@@ -33,7 +33,7 @@ export default function Home() {
         <div className='mt-16 animate-slideFromDownAndFade [animation-delay:var(--animation-delay)]'>
           <h2 className='h2 mb-4'>About me</h2>
           <p className='paragraph mb-2'>
-            I’m a Developer living in San Fransisco. I have 8 years experience
+            I’m a Developer living in San Francisco. I have 8 years experience
             working in Ecommerce & Blockchain across Design, Development &
             Project Management.
           </p>
