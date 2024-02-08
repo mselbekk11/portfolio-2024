@@ -61,16 +61,21 @@ export default function Home() {
         <div className='mt-16 animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*3)]'>
           <h2 className='h2 mb-4'>Skills</h2>
           <p className='paragraph mb-2'>
-            HTML | CSS | JavaScript | React | Next.js | Tailwind | MongoDB |
-            Express | Node.js | Mongoose | Figma | Photoshop | Shopify |
-            Wordpress
+            HTML | CSS | JavaScript | React | Typescript | Next.js | Tailwind |
+            Shadcn/ui
+          </p>
+          <p className='paragraph mb-2'>
+            Supabase | Prisma | MongoDB | Express | Node.js | Mongoose
+          </p>
+          <p className='paragraph mb-2'>
+            Figma | Photoshop | Shopify | Wordpress
           </p>
         </div>
         <div className='mt-16 animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*4)]'>
           <h2 className='h2 mb-4'>Latest Projects</h2>
           <ul className='mb-2'>
             <li className='mb-2 flex items-center'>
-              <Link href='/projects/splash-page'>
+              <Link href='/projects/splash-screen'>
                 <span>SplashScreen - Ecommerce Store</span>
               </Link>
               <span className='inline-block'>
@@ -93,8 +98,8 @@ export default function Home() {
               </span>
             </li>
             <li className='mb-2 flex items-center'>
-              <Link href='/projects/alkimi-labs'>
-                <span>Alkimi Labs - Token Staking App</span>
+              <Link href='/projects/notes'>
+                <span>Notes - Next.js App</span>
               </Link>
               <span className='inline-block'>
                 <svg

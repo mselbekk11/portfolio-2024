@@ -7,6 +7,7 @@ import VideoOne from '../../components/VideoOne';
 import VideoTwo from '../../components/VideoTwo';
 import VideoThree from '../../components/VideoThree';
 import VideoFour from '../../components/VideoFour';
+import VideoFive from '../../components/VideoFive';
 
 const projects = () => {
 
@@ -26,7 +27,6 @@ const projects = () => {
           <div className='animate-slideFromDownAndFade [animation-delay:var(--animation-delay)]'>
             <Link href="/projects/splash-screen">
             <div className='flex w-full h-full bg-[#242429] flex-col items-center py-6'>
-              {/* <Image src='/splash-screen.png' width={500} height={500} alt='splash screen' /> */}
               <VideoOne />
             </div>
             </Link>
@@ -35,9 +35,18 @@ const projects = () => {
           </div>
 
           <div className='animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*2)]'>
+          <Link href="/projects/notes">
+            <div className='flex w-full h-full bg-[#CCCCCC] flex-col items-center py-6'>
+            <VideoFive />
+            </div>
+            </Link>
+            <h2 className='my-6'>Notes</h2>
+            <p>Full-Stack Next.js, Supabase & Prisma application with stripe payment integration</p>
+          </div>
+
+          <div className='animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*3)]'>
           <Link href="/projects/alkimi-labs">
             <div className='flex w-full h-full bg-[#686974] flex-col items-center py-6'>
-            {/* <Image src='/labs.png' width={500} height={500} alt='Alkimi Labs' /> */}
             <VideoTwo />
             </div>
             </Link>
@@ -45,10 +54,9 @@ const projects = () => {
             <p>Token Staking App, currently holding $10,000,000 worth of community members $ADS tokens</p>
           </div>
 
-          <div className='animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*3)]'>
+          <div className='animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*4)]'>
           <Link href="/projects/jennyco">
             <div className='flex w-full h-full bg-[#915BDA] flex-col items-center py-6'>
-            {/* <Image src='/jco.png' width={500} height={500} alt='JennyCo' /> */}
             <VideoThree />
             </div>
             </Link>
@@ -56,10 +64,9 @@ const projects = () => {
             <p>NFT minting site where users receive a DNA test and token rewards for their data once they mint a JennyCo NFT</p>
           </div>
 
-          <div className='animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*4)]'>
+          <div className='animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*5)]'>
           <Link href="/projects/alex-the-alkimist">
             <div className='flex w-full h-full bg-[#9FD5FF] flex-col items-center py-6'>
-            {/* <Image src='/ata.png' width={500} height={500} alt='Alex The Alkimist' /> */}
             <VideoFour />
             </div>
             </Link>
