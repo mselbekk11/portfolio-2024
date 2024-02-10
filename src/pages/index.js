@@ -55,7 +55,7 @@ export default function Home() {
             <li className='mb-2'>Alkimi - Frontend Developer</li>
             <li className='mb-2'>Zmags - Director of Global Design Services</li>
             <li className='mb-2'>Zmags - Solutions Engineer</li>
-            <li className='mb-2'>Currys - Web Designer & Developer</li>
+            <li className='mb-2'>Currys - Frontend Developer</li>
           </ul>
         </div>
         <div className='mt-16 animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*3)]'>
