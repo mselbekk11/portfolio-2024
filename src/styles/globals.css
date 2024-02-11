@@ -268,6 +268,14 @@ button{
   animation-delay: calc(var(--animation-delay) * 5)
 }
 
+.\[animation-delay\:calc\(var\(--animation-delay\)\*6\)\] {
+  animation-delay: calc(var(--animation-delay) * 6)
+}
+
+.\[animation-delay\:calc\(var\(--animation-delay\)\*7\)\] {
+  animation-delay: calc(var(--animation-delay) * 7)
+}
+
 .\[animation-delay\:var\(--animation-delay\)\] {
   animation-delay: var(--animation-delay)
 }

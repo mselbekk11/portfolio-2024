@@ -8,6 +8,7 @@ import VideoTwo from '../../components/VideoTwo';
 import VideoThree from '../../components/VideoThree';
 import VideoFour from '../../components/VideoFour';
 import VideoFive from '../../components/VideoFive';
+import VideoSix from '../../components/VideoSix';
 
 const projects = () => {
 
@@ -64,7 +65,17 @@ const projects = () => {
             <p>NFT minting site where users receive a DNA test and token rewards for their data once they mint a JennyCo NFT</p>
           </div>
 
-          <div className='animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*5)]'>
+          <div className='animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*6)]'>
+          <Link href="/projects/kodama">
+            <div className='flex w-full h-full bg-[#242429] flex-col items-center py-6'>
+            <VideoSix />
+            </div>
+            </Link>
+            <h2 className='my-6'>Kodama</h2>
+            <p>NFT Minting Site and Vesting Software. Kodama allows NFT projects to drip feed their NFTs to their community to stabalize the floor price at launch.</p>
+          </div>
+
+          <div className='animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*7)]'>
           <Link href="/projects/alex-the-alkimist">
             <div className='flex w-full h-full bg-[#9FD5FF] flex-col items-center py-6'>
             <VideoFour />
