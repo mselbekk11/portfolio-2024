@@ -37,25 +37,25 @@ export default function Home() {
             working in Ecommerce & Blockchain across Design, Development &
             Project Management.
           </p>
-          <p className='paragraph'>
+          {/* <p className='paragraph'>
             The last 4 years have been spent building and running agencies
             specialising in the design and development of Ecommerce platforms,
             Content Management systems, NFT projects & Token staking web
             applications for clients such as{' '}
             <a href='https://www.google.com'>Versace</a>, <a>Clarins</a>,{' '}
             <a>Alkimi</a> & <a>JennyCo</a>
-          </p>
+          </p> */}
         </div>
         <div className='mt-16 animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*2)]'>
           <h2 className='h2 mb-4'>Experience</h2>
           <ul className='mb-2'>
-            <li className='mb-2'>
+            {/* <li className='mb-2'>
               Alkimi - Head of Project Management & Web3 Integrations
-            </li>
-            <li className='mb-2'>Alkimi - Frontend Developer</li>
+            </li> */}
+            <li className='mb-2'>Alkimi - Frontend Engineer</li>
             <li className='mb-2'>Zmags - Director of Global Design Services</li>
             <li className='mb-2'>Zmags - Solutions Engineer</li>
-            <li className='mb-2'>Currys - Frontend Developer</li>
+            <li className='mb-2'>Currys - Frontend Engineer</li>
           </ul>
         </div>
         <div className='mt-16 animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*3)]'>
