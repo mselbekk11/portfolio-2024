@@ -9,6 +9,7 @@ import VideoThree from '../../components/VideoThree';
 import VideoFour from '../../components/VideoFour';
 import VideoFive from '../../components/VideoFive';
 import VideoSix from '../../components/VideoSix';
+import VideoSeven from '../../components/VideoSeven';
 
 const projects = () => {
 
@@ -26,6 +27,16 @@ const projects = () => {
         <div className='my-10 flex flex-col gap-40'>
 
           <div className='animate-slideFromDownAndFade [animation-delay:var(--animation-delay)]'>
+            <Link href="/projects/advanced">
+            <div className='flex w-full h-full bg-[#CCCCCC] flex-col items-center py-6'>
+              <VideoSeven />
+            </div>
+            </Link>
+            <h2 className='my-6'>Advanced Ortho Lab</h2>
+            <p>Full-Stack custom website for an Orthodontic Lab using Next.js, Supabase & Mailgun</p>
+          </div>
+
+          <div className='animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*2)]'>
             <Link href="/projects/splash-screen">
             <div className='flex w-full h-full bg-[#242429] flex-col items-center py-6'>
               <VideoOne />
@@ -33,16 +44,6 @@ const projects = () => {
             </Link>
             <h2 className='my-6'>Splash Screen</h2>
             <p>Full-Stack Ecommerce MERN application with PayPal payment integration</p>
-          </div>
-
-          <div className='animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*2)]'>
-          <Link href="/projects/notes">
-            <div className='flex w-full h-full bg-[#CCCCCC] flex-col items-center py-6'>
-            <VideoFive />
-            </div>
-            </Link>
-            <h2 className='my-6'>Notes</h2>
-            <p>Full-Stack Next.js, Supabase & Prisma application with stripe payment integration</p>
           </div>
 
           <div className='animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*3)]'>
@@ -83,6 +84,16 @@ const projects = () => {
             </Link>
             <h2 className='my-6'>Alex The Alkimist</h2>
             <p>NFT Minting site where users can mint an Alex the Alkimist NFT, earn token rewards, and then play a game using their NFT.</p>
+          </div>
+
+          <div className='animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*7)]'>
+          <Link href="/projects/notes">
+            <div className='flex w-full h-full bg-[#CCCCCC] flex-col items-center py-6'>
+            <VideoFive />
+            </div>
+            </Link>
+            <h2 className='my-6'>Notes</h2>
+            <p>Full-Stack Next.js, Supabase & Prisma application with stripe payment integration</p>
           </div>
 
         </div>

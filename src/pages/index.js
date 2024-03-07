@@ -73,10 +73,11 @@ export default function Home() {
         </div>
         <div className='mt-16 animate-slideFromDownAndFade [animation-delay:calc(var(--animation-delay)*4)]'>
           <h2 className='h2 mb-4'>Latest Projects</h2>
+          <div className='mt-8 flex items-center justify-center flex-col'></div>
           <ul className='mb-2'>
             <li className='mb-2 flex items-center'>
-              <Link href='/projects/splash-screen'>
-                <span>SplashScreen - Ecommerce Store</span>
+              <Link href='/projects/advanced'>
+                <span>Advanced - Next.js application</span>
               </Link>
               <span className='inline-block'>
                 <svg
@@ -98,8 +99,8 @@ export default function Home() {
               </span>
             </li>
             <li className='mb-2 flex items-center'>
-              <Link href='/projects/notes'>
-                <span>Notes - Next.js App</span>
+              <Link href='/projects/splash-screen'>
+                <span>SplashScreen - Ecommerce Store</span>
               </Link>
               <span className='inline-block'>
                 <svg
